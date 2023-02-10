@@ -1,0 +1,100 @@
+==Bản cập nhật 0.2.6===
+11:24AM-10/12/2021
+
+Cập nhật:
++ Chỉnh sửa cơ sở dữ liệu cho phù hợp.
++ Chỉnh sửa lại các dòng thông báo cho phù hợp.
++ Thêm nút show/hide mật khẩu ở trang đăng nhập.
+
+==Bản cập nhật 0.2.7 ==
+10:50 PM-10/12/2021
+
+Cập nhật:
++ Cập nhật giao diện -> do không thể hiện được thông báo sản phẩm không hợp lệ, giờ, phút ko hợp lệ nên đã thêm nút hỗ trợ
++ Fix bug chỉnh sửa số lượng trực tiếp trên chi tiết hóa đơn bị lỗi
++ Fix bug Lọc ở danh sách hóa đơn, danh sách phiếu đặt
++ Fix bug đăng nhập quản lý -> đăng xuất -> đăng nhập nhân viên -> các chức năng phân quyền bị lỗi nặng.
+
+==Bản cập nhật 0.2.8 ==
+12:24 AM-11/12/2021
+
+Cập nhật:
++ Thêm chức năng Hủy phiếu đặt.
++ Fix bug khi đang lập hóa đơn, phiếu đặt mà chuyển sang xem danh sách phiếu đặt bị hiển thị toàn bộ lập hóa đơn, phiếu đặt của toàn bộ nhân viên
++ Sửa định dạng số cho mất .0
+
+==Bản cập nhập 0.2.9 ==
+8:43 PM-18/12/2021
+
+Cập nhật:
++ Đã thực hiện in được hóa đơn ra file pdf
++ Cập nhật giao diện Danh Sách Phiếu đặt cho thêm trực quan hơn chia thành 3 màu theo từng trạng thái.
++ Thêm Loading vào trong Giao Diện Quản lý, Nhân viên (Chưa hoàn chỉnh)
+
+==Bản cập nhập 0.3.0 ==
+4:35 PM-12/20/2021
+
+Cập nhật:
++ Fix hiển thị lỗi khi nhấn nút "Cancel" ở ô nhập mật khẩu để sử dụng chức năng nhân viên.
+
+Lỗi "ko fix đc":
++ Mất màu bảng khi mở combox lọc.
++ không chỉnh sửa dialog Loading ở đăng nhập.
+
+==Bản cập nhật 0.3.1==
+10:26 PM 12/22/2021
+
+Cập nhật:
++ Đã chọn được máy in để in được hóa đơn.
++ Đổi màu highlight tử PINK thành 129, 139, 233 (xanh) cho "bớt yếu tố nữ tính".
++ Cập nhật giao diện lập hóa đơn, lập phiếu đặt: Thêm dấu phẩy vào tiền.
++ Chuyển comboLoc của danh sách hóa đơn và danh sách phiếu đặt sang bên hông trái của table Danh sách để tăng tính thẩm mĩ.
++ Fix lỗi hiển thị sai mã hóa đơn khi lập hóa đơn và lập phiếu đặt.
++ Fix lỗi khi nhập vào số điện thoại lúc lập hóa đơn, sau đó cancel, sẽ bị lỗi do số điện thoại khách hàng bị null.
++ Cập nhật giao diện ở Lập hóa đơn, danh sách sản phẩm.
+	Danh sách sản phẩm, giờ đây được chia làm 3 màu: Hết hàng(số lượng sản phẩm = 0), còn hàng (số lượng sản phẩm >10), sắp hết hàng (số lượng sản phẩm >0 và <=10)
+
+==Bản cập nhật 0.3.2==
+12:23PM 12/23/2021
+
+Cập nhật:
++ Thêm ô tính tiền thừa ở Lập hóa đơn
++ Chỉnh sửa giao diện Danh Sách Nhân Viên
+
+==Bản vá lỗi 0.3.2.1==
+11:05 PM 12/23/2021
+
+Cập nhật:
++ Chỉnh sửa giao diện 
+
+==Bản cập nhật 0.3.3==
+11:40 AM 12/24/2021
+
+Cập nhật:
++ Fix lỗi khi chuyển sản phẩm về danh sách sản phẩm lỗi:
+	. Lỗi không chuyển được.
+	. Lỗi sót lại discount.
++ Fix lỗi không hiển thị dấu phẩy ở thành tiền và Chi tiết phiếu đặt (định dạng ngày giờ sai).
+
+==Bản cập nhật 0.3.4 ==
+10:59 AM 12/25/2021
+
+Cập nhật:
++ Đổi màu nút Thống kê ở giao diện Báo cáo.
++ Fix lỗi không thể Rest Mật khẩu.
+
+Chỉnh sửa: Trở về giao diện chính bằng cách nhất vào tiêu đề "Nhà Sách TNL".
+
+==Bản Beta 0.0.1 ==
+2:33 PM 12/25/2021
+
+Cập nhật:
++ Chỉnh sửa giao diện
++ Chỉnh sửa lỗi hiện thị trạng thái hóa đơn.
+
+==Bản Chính thức 0.0.1 ==
+23:10 PM 12/25/2021
+
+Cập nhật:
++ Chỉnh sửa lại ngày giờ hiển thị và màu sắc hiển thị trạng thái của danh sách hóa đơn
++ Fix lỗi đặt hàng sai.
